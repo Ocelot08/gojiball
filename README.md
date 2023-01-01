@@ -24,7 +24,7 @@ I generally liked around 0.74N micro switches. Wherever or whatever microswitche
 4. Test fit electronics into the "top" and "bottom" parts. Don't add the bearings yet (the cover doesn't fit if the bearings are installed). I recommend just using 2 of the M2 screws to screw in the top and bottom as you may need to make adjustments for the mouse switches.
 5. Test fit the cover. To make sure the buttons work with the switches you may need to adjust either the placement of the switch (push it further out if the switch can't be pressed) or shave off some of the inside stem in the cover (if the switch is always pressed). I used a little chisel to shave off from the stem. 
 6. Once the buttons click well, dissasemble a bit so you can access the reset and ground pins, needed to flash the MC
-7. Setup your local QMK environment. You can drop the qmk folder "00_oce01" into the "keyboards" folder. Then continue with standard qmk compiling and flashing using the keyboard name "00_oce01" (and "default" keymap).
+7. Setup your local QMK environment. You can drop the qmk folder "00_oce01" into your local qmk_firmware>keyboards folder. Then continue with standard qmk compiling and flashing using the keyboard name "00_oce01" (and "default" keymap).
 8. Once it's all working the final assembly adding the bearings last, after the cover is on.
 
 I had some trouble with the qmk firmware at first, turned out my local qmk repo was really old. This worked for me on qmk repo 0.19.5
