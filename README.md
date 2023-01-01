@@ -5,7 +5,7 @@ STLs are also on [Printables](https://www.printables.com/model/355632-gojiball).
 This is starting with the aball electronics, adding 2 switches as direct pins, and making a custom case for it.
 Follow brickbots guide for the sensor and micro controller then jump to here to finish it out:
 
-Additional parts:
+**Additional parts:**
 - 2 mouse microswitches. I bought these from [Aliexpress](https://www.aliexpress.us/item/3256802345972562.html?spm=a2g0o.order_detail.order_detail_item.9.3b9bf19cvxvjTy&gatewayAdapt=glo2usa&_randl_shipto=US)
 - 4 8mm M2 screws (overkill, but makes it secure)
 - 2 6mm M2 screws (8mm works fine too, they just stick up more)
@@ -17,7 +17,7 @@ If you're buying all these parts new there's definitely ways to consolidate part
 
 I generally liked around 0.74N micro switches. Wherever or whatever microswitches you want, go for it.
 
-Final Assembly:
+**Final Assembly:**
 1. Print the parts and add the threaded inserts to the "bottom" part 
 2. Wire up the sensor electronics as per brickbots guide
 3. Connect your 2 switches to pins D1 and D0 with the second lead to GND. You can change which pins you use in the qmk config.h file under DIRECT_PINS.
@@ -29,7 +29,7 @@ Final Assembly:
 
 I had some trouble with the qmk firmware at first, turned out my local qmk repo was really old. This worked for me on qmk repo 0.19.5
 
-Final Notes:
+**Notes:**
 It's not perfect, the 34mm trackball can be pushed out from it's spot if pushed from the wrong angle. Next itteration would likely adjust the "top" file so the arms are spread out a little more. 
 
 Also, the cover only fitting after the bearings are on was a pain for troubleshooting. It makes for a cleaner final product though.
