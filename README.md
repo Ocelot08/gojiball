@@ -2,6 +2,8 @@
 A tiny trackball based on the [aball project](https://github.com/brickbots/aball).
 STLs are also on [Printables](https://www.printables.com/model/355632-gojiball).
 
+<img width="4032" height="3024" alt="7ypoit22nb9a1" src="https://github.com/user-attachments/assets/4cc587ba-cc59-48c1-bb59-3d982af34341" />
+
 This is starting with the aball electronics, adding 2 switches as direct pins, and making a custom case for it.
 Follow brickbots guide for the sensor and micro controller then jump to here to finish it out:
 
